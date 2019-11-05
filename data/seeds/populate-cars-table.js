@@ -8,6 +8,7 @@ exports.seed = function (knex) {
           make: 'opel',
           model: 'corsa',
           mileage: '54323',
+          saleInfo: 1,
         },
         {
           VIN: '4126789',
@@ -16,6 +17,7 @@ exports.seed = function (knex) {
           mileage: '12452',
           transmissionType: 'awesome',
           statusOfTitle: 'clean',
+          saleInfo: 2,
         },
         {
           VIN: '14326789',

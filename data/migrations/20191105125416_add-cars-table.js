@@ -8,6 +8,8 @@ exports.up = function(knex) {
     table.text('mileage').notNullable();
     table.text('transmissionType');
     table.text('statusOfTitle');
+    table.integer('saleInfo');
+    table.foreign('saleInfo').references('id').inTable('sales');
   });
 };
 
